@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <GirlReadingIllustration class='svg-image'/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GirlReadingIllustration from './components/GirlReadingIllustration.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    GirlReadingIllustration
   }
 }
 </script>
@@ -22,5 +21,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.svg-image {
+  width: 400px;
 }
 </style>
