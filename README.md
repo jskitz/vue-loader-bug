@@ -1,4 +1,4 @@
-# svg-loader-bug
+# vue-loader-bug
 
 ## Project setup
 ```
